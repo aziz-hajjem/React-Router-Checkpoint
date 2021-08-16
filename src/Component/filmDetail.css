@@ -1,0 +1,32 @@
+.film-detail-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.616);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    padding-left: 5rem;
+    
+}
+.film-detail-content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+    gap: 2rem;
+    width: auto;
+}
+i:hover{
+    transform: scale(1.02);
+    transition: transform 1s;
+}
+i{
+    transition: transform 1s;
+
+}
+p{
+    line-height: 1.5;
+}
